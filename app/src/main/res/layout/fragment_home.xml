@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shadow.horizon.Fragments.Home">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/WhatsNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="8dp"
+
+
+        >
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Whats New? Experience An Interview!"
+            android:textSize="20dp"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:textStyle="bold"
+
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/WhatsNew"
+        android:layout_margin="8dp"/>
+
+</RelativeLayout>

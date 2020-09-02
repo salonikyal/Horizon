@@ -1,0 +1,8 @@
+url:https://www.facebook.com/profile.php?id=100003332707351
+name:Shadow
+email:amit.k19995@gmail.com
+gender:female
+botmaster:Shadow
+organization:Shadow corp.
+version:1.0.0
+

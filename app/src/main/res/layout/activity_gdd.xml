@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/table">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".3">
+
+        <me.himanshusoni.chatmessageview.ChatMessageView
+            android:id="@+id/chatMessageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cmv_arrowGravity="start"
+            app:cmv_arrowMargin="3dp"
+            app:cmv_arrowPosition="bottom"
+            app:cmv_backgroundColor="#e700d40e"
+            app:cmv_backgroundColorPressed="#88029f0c"
+            app:cmv_contentPadding="10dp"
+            app:cmv_cornerRadius="3dp"
+            app:cmv_showArrow="true"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+        </me.himanshusoni.chatmessageview.ChatMessageView>
+
+    </RelativeLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33">
+<ScrollView
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            >
+
+
+            <me.himanshusoni.chatmessageview.ChatMessageView
+                android:id="@+id/chatMessageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cmv_arrowGravity="start"
+                app:cmv_arrowMargin="3dp"
+                app:cmv_arrowPosition="left"
+                app:cmv_backgroundColor="#e504faee"
+                app:cmv_backgroundColorPressed="#03d1c0"
+                app:cmv_contentPadding="10dp"
+                app:cmv_cornerRadius="3dp"
+                app:cmv_showArrow="true"
+
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            </me.himanshusoni.chatmessageview.ChatMessageView>
+
+        </RelativeLayout>
+</ScrollView>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5">
+
+
+            <me.himanshusoni.chatmessageview.ChatMessageView
+                android:id="@+id/chatMessageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cmv_arrowGravity="start"
+                app:cmv_arrowMargin="3dp"
+                app:cmv_arrowPosition="right"
+                app:cmv_backgroundColor="#e1ea04e6"
+                app:cmv_backgroundColorPressed="#94029c"
+                app:cmv_contentPadding="10dp"
+                app:cmv_cornerRadius="3dp"
+                app:cmv_showArrow="true"
+                android:gravity="end"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="18dp">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            </me.himanshusoni.chatmessageview.ChatMessageView>
+
+        </RelativeLayout>
+</ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33"
+        android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.">
+
+        <me.himanshusoni.chatmessageview.ChatMessageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/chatMessageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cmv_arrowGravity="start"
+            app:cmv_arrowMargin="3dp"
+            app:cmv_arrowPosition="bottom"
+            app:cmv_backgroundColor="#f9bababa"
+            app:cmv_backgroundColorPressed="#FFBABABA"
+            app:cmv_contentPadding="10dp"
+            app:cmv_cornerRadius="3dp"
+            app:cmv_showArrow="true"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            </me.himanshusoni.chatmessageview.ChatMessageView>
+        </RelativeLayout>
+</ScrollView>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+            android:paddingTop="30dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/et_message"
+                android:layout_width="550dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_send"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/btn_send"
+                android:layout_toStartOf="@+id/btn_send"
+                android:layout_weight="0.5"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_send_24dp"
+                android:text="Send"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

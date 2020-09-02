@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shadow.horizon.Main2Activity">
+    <item
+        android:id="@+id/action_ai"
+        android:title="Artificial Intelligence"
+        app:showAsAction="always"
+        android:icon="@drawable/ai"/>
+</menu>

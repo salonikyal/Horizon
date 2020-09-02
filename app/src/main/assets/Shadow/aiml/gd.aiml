@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>Discuss about Elearning</pattern>
+<template>
+<random>
+<li>Elearning has been around us for about a decade now</li>
+<li>Elearning is a fascinating gift to the humanity</li>
+<li>An overrated phenomenon of this century</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>Elearning is necessary</pattern>
+<template>
+<random>
+<li>Won't say neccessary but Elearning is a good thing and people can definitely benefit from this</li>
+<li>Elearning is clearly the future of Education</li>
+<li>Elearning is not an alternative and could never be</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>study materials</pattern>
+<template>
+<random>
+<li>Some of the reputated sites and organization provides quality content on internet</li>
+<li>almost every Elearning resource is neatly organized according to the syllabus</li>
+<li>Elearning study materials can be too much focused sometimes that restricts a student's creativity and imagination</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>easier for students</pattern>
+<template>
+<random>
+<li>Ease of access to knowledge is eminent in today's society </li>
+<li>A student should learn their subject fast and easy so that the brain is less pressurized</li>
+<li>Easing out learning process doesn't help in brain's growth, A student must research for themselves about the subjects</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>made students lazy</pattern>
+<template>
+<random>
+<li>Students don't have to take notes on everything they can just replay the videos </li>
+<li>yeah, kind of agree with that but it also means they can utilize the time more efficiently</li>
+<li>they don’t put in as much efforts as compared to students who were used to before this elearning evolution</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>interactions</pattern>
+<template>
+<random>
+<li>Human interactions are rare, although in some cases they allow email communication with the faculty</li>
+<li>if topics are discussed neatly to the point, then I don’t think human interactions are needed just for the sake of it</li>
+<li>face to face communication is important for overall development of the student.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>flexibility</pattern>
+<template>
+<random>
+<li>This is a great advantage of Elearning you can learn absolutely anywhere anytime</li>
+<li>One can learn anything at anywhere,this is most important in today's society</li>
+<li>Still, there are some soft skills we develop passively when we go to a learning place at a fixed time, it also helps us concentrate, but will agree with you in this</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>Conclude</pattern>
+<template>
+<random>
+<li>Well, we can come to a conclusion that Elearning should not be discouraged as it has already become an integral part of our life. But its definitely not an alternative for the conventional education system. A guided Elearning process alongside formal schooling is best</li>
+<li>Hold my beer</li>
+<li>yeah, I agree to that</li>
+</random>
+</template>
+</category>
+
+</aiml>
